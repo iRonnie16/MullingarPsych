@@ -1,0 +1,228 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EFD9CF;
+}
+
+.header {
+    width: 100%;
+    background-color: #222226;
+    color: #EFD9CF;
+    text-align: center;
+    background: linear-gradient(rgba(30,30,30,0.75), 
+    rgba(34,34,38,1)), url(Assets/mainheader.png) fixed;
+}
+
+
+.header p {
+    display: inline-block;
+    font-size: 108%;
+    margin: 40px 0px 55px 0px;
+    padding: 25px;
+    text-align: center;
+    color: #CCCCCC;
+    font-family: 'Abel', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    width: 500px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px 0 40px 0;
+    padding: 0px;
+}
+
+h2 {
+    color: #DDDDDD;
+    font-size: 140%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    background-color: #222226;
+    text-align: center;
+    padding: 10px 0 25px 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    width: 20%;
+    display: inline-block; 
+}
+
+nav a {
+    border-radius: 15px;
+    width: 20%;
+    font-weight: 800;
+    font-size: 110%;
+    padding: 15px 30px;
+    color: #EFD9CF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #222226;
+    background-color: #EFD9CF;
+}
+
+.active {
+    color: #7B6569;
+    background: radial-gradient(rgba(15,15,19,0.6), 
+    rgba(34,34,38,1));
+}
+
+.active:hover {
+    background-color: #7B6569;
+    color: #222226;
+    
+}
+
+.quote {
+    display: inline-block;
+    width: 92%;
+    height: 380px;
+    padding: 0;
+    margin: 4% 4% 0% 4%;
+    background-color: #222226;
+}
+
+.quote p {
+    display: inline-block;
+    float:left;
+    font-size: 185%;
+    color: #CCCCCC; 
+    height: auto;
+    width: 40%;
+    text-align: center;
+    padding: 5%;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .quote p {
+        font-size: 150%;
+    }
+}
+
+.quote img {
+    display: inline-block;
+    padding: 0;
+    float:right;
+    background-image: url("quoteright.png");
+    background-size: cover;
+    width: 50%;
+    height: inherit;
+    margin: 0;
+}
+
+.seek {
+    width: 70%;
+    display: inline-block;
+    margin: 5% 15%;
+    height: 300px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #222226;
+}
+
+.seek h2 {
+    padding-top: 30px;
+}
+.seek p {
+    color: #CCCCCC;
+    margin: 50px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .seek p {
+        font-size: 15px;
+    }
+}
+
+.seek-image {
+    padding: 0;
+    background: linear-gradient(rgba(239,217,207,1), 
+    rgba(239,217,207,0)), url(seek2.png) fixed;*/
+    background-size: fit;
+    width: 100%;
+    margin: 0;
+}
+
+.reach {
+    width: 50%;
+    display: inline-block;
+    margin: 1% 25% 5% 25%;
+    height: 300px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #222226;
+}
+
+.reach h2 {
+    padding: 30px;
+}
+
+.reach p {
+    color: #CCCCCC;
+    padding: 4% 0;
+    font-size: 26px;
+}
+
+.reach .button {
+    background-color: #EFD9CF;
+    color: #222226;
+    border-radius: 12px;
+    margin: 30px 25%;
+}
+
+.reach a {
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #222226;
+    background-color: #DFB6AF;
+}
+
+.footer {
+    color: #CCCCCC;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    height: 80px;
+    background-color: #121212;
+}
+
+.footer p {
+    margin: 15px 0px 0px 0px;
+    padding-bottom: 0px;
+    color: #888888;
+}
+
+.footer a {
+    padding: 1% 10% ;
+}
+
+.footer a:visited, .footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #7B6569;
+}
+
+/*#5f6360*/
